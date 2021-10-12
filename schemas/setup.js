@@ -24,7 +24,6 @@ NEWSCHEMA('Setup', function(schema) {
 
 		LOADCONFIG({ name: model.name, allow_tms: model.allow_tms, secret_tms: model.secret_tms });
 		$.success();
-
 	});
 
 	schema.setRead(function($) {
